@@ -109,9 +109,10 @@
             this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnExit.FlatAppearance.BorderSize = 0;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.Location = new System.Drawing.Point(1133, 4);
+            this.btnExit.Location = new System.Drawing.Point(755, 3);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(59, 54);
+            this.btnExit.Size = new System.Drawing.Size(39, 36);
             this.btnExit.TabIndex = 0;
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -124,16 +125,18 @@
             this.panel1.Controls.Add(this.btnExit);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1197, 93);
+            this.panel1.Size = new System.Drawing.Size(798, 62);
             this.panel1.TabIndex = 1;
             // 
             // picIcon
             // 
             this.picIcon.Image = ((System.Drawing.Image)(resources.GetObject("picIcon.Image")));
-            this.picIcon.Location = new System.Drawing.Point(4, 8);
+            this.picIcon.Location = new System.Drawing.Point(3, 5);
+            this.picIcon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picIcon.Name = "picIcon";
-            this.picIcon.Size = new System.Drawing.Size(95, 73);
+            this.picIcon.Size = new System.Drawing.Size(63, 49);
             this.picIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picIcon.TabIndex = 7;
             this.picIcon.TabStop = false;
@@ -143,9 +146,10 @@
             this.lblProgramTitle.AutoSize = true;
             this.lblProgramTitle.Font = new System.Drawing.Font("Corbel", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProgramTitle.ForeColor = System.Drawing.Color.White;
-            this.lblProgramTitle.Location = new System.Drawing.Point(105, 13);
+            this.lblProgramTitle.Location = new System.Drawing.Point(70, 9);
+            this.lblProgramTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblProgramTitle.Name = "lblProgramTitle";
-            this.lblProgramTitle.Size = new System.Drawing.Size(346, 35);
+            this.lblProgramTitle.Size = new System.Drawing.Size(235, 23);
             this.lblProgramTitle.TabIndex = 1;
             this.lblProgramTitle.Text = "State Information Program";
             // 
@@ -153,9 +157,10 @@
             // 
             this.lblWelcomeTitle.Font = new System.Drawing.Font("Corbel", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcomeTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(43)))), ((int)(((byte)(74)))));
-            this.lblWelcomeTitle.Location = new System.Drawing.Point(12, 136);
+            this.lblWelcomeTitle.Location = new System.Drawing.Point(8, 91);
+            this.lblWelcomeTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblWelcomeTitle.Name = "lblWelcomeTitle";
-            this.lblWelcomeTitle.Size = new System.Drawing.Size(266, 108);
+            this.lblWelcomeTitle.Size = new System.Drawing.Size(177, 72);
             this.lblWelcomeTitle.TabIndex = 2;
             this.lblWelcomeTitle.Text = "Welcome to the State Informational Program!";
             this.lblWelcomeTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -165,9 +170,10 @@
             this.lblInstructions.AutoSize = true;
             this.lblInstructions.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInstructions.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(43)))), ((int)(((byte)(74)))));
-            this.lblInstructions.Location = new System.Drawing.Point(297, 101);
+            this.lblInstructions.Location = new System.Drawing.Point(198, 67);
+            this.lblInstructions.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblInstructions.Name = "lblInstructions";
-            this.lblInstructions.Size = new System.Drawing.Size(218, 29);
+            this.lblInstructions.Size = new System.Drawing.Size(146, 19);
             this.lblInstructions.TabIndex = 3;
             this.lblInstructions.Text = "Please select a state";
             // 
@@ -176,9 +182,10 @@
             this.btnAdvFeatures.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(45)))), ((int)(((byte)(39)))));
             this.btnAdvFeatures.Font = new System.Drawing.Font("Corbel", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdvFeatures.ForeColor = System.Drawing.Color.White;
-            this.btnAdvFeatures.Location = new System.Drawing.Point(52, 512);
+            this.btnAdvFeatures.Location = new System.Drawing.Point(35, 341);
+            this.btnAdvFeatures.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdvFeatures.Name = "btnAdvFeatures";
-            this.btnAdvFeatures.Size = new System.Drawing.Size(179, 68);
+            this.btnAdvFeatures.Size = new System.Drawing.Size(119, 45);
             this.btnAdvFeatures.TabIndex = 6;
             this.btnAdvFeatures.Text = "Advanced Features";
             this.btnAdvFeatures.UseVisualStyleBackColor = false;
@@ -238,18 +245,20 @@
             this.flowLayoutPanelAllStates.Controls.Add(this.stateUserControlWV);
             this.flowLayoutPanelAllStates.Controls.Add(this.stateUserControlWI);
             this.flowLayoutPanelAllStates.Controls.Add(this.stateUserControlWY);
-            this.flowLayoutPanelAllStates.Location = new System.Drawing.Point(284, 136);
+            this.flowLayoutPanelAllStates.Location = new System.Drawing.Point(189, 91);
+            this.flowLayoutPanelAllStates.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanelAllStates.Name = "flowLayoutPanelAllStates";
-            this.flowLayoutPanelAllStates.Size = new System.Drawing.Size(667, 515);
+            this.flowLayoutPanelAllStates.Size = new System.Drawing.Size(445, 343);
             this.flowLayoutPanelAllStates.TabIndex = 4;
             // 
             // stateUserControlAL
             // 
             this.stateUserControlAL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlAL.Location = new System.Drawing.Point(3, 3);
+            this.stateUserControlAL.Location = new System.Drawing.Point(1, 1);
+            this.stateUserControlAL.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlAL.Name = "stateUserControlAL";
-            this.stateUserControlAL.Size = new System.Drawing.Size(634, 139);
-            this.stateUserControlAL.StateABB = "(AL)";
+            this.stateUserControlAL.Size = new System.Drawing.Size(423, 93);
+            this.stateUserControlAL.StateABB = "AL";
             this.stateUserControlAL.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlAL.StateIcon")));
             this.stateUserControlAL.StateName = "Alabama";
             this.stateUserControlAL.TabIndex = 0;
@@ -257,10 +266,11 @@
             // stateUserControlAK
             // 
             this.stateUserControlAK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlAK.Location = new System.Drawing.Point(3, 148);
+            this.stateUserControlAK.Location = new System.Drawing.Point(1, 96);
+            this.stateUserControlAK.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlAK.Name = "stateUserControlAK";
-            this.stateUserControlAK.Size = new System.Drawing.Size(634, 139);
-            this.stateUserControlAK.StateABB = "(AK)";
+            this.stateUserControlAK.Size = new System.Drawing.Size(423, 93);
+            this.stateUserControlAK.StateABB = "AK";
             this.stateUserControlAK.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlAK.StateIcon")));
             this.stateUserControlAK.StateName = "Alaska";
             this.stateUserControlAK.TabIndex = 1;
@@ -268,9 +278,10 @@
             // stateUserControlAZ
             // 
             this.stateUserControlAZ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlAZ.Location = new System.Drawing.Point(3, 293);
+            this.stateUserControlAZ.Location = new System.Drawing.Point(1, 191);
+            this.stateUserControlAZ.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlAZ.Name = "stateUserControlAZ";
-            this.stateUserControlAZ.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlAZ.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlAZ.StateABB = "(AZ)";
             this.stateUserControlAZ.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlAZ.StateIcon")));
             this.stateUserControlAZ.StateName = "Arizona";
@@ -279,9 +290,10 @@
             // stateUserControlAR
             // 
             this.stateUserControlAR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlAR.Location = new System.Drawing.Point(3, 438);
+            this.stateUserControlAR.Location = new System.Drawing.Point(1, 286);
+            this.stateUserControlAR.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlAR.Name = "stateUserControlAR";
-            this.stateUserControlAR.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlAR.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlAR.StateABB = "(AR)";
             this.stateUserControlAR.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlAR.StateIcon")));
             this.stateUserControlAR.StateName = "Arkansas";
@@ -290,9 +302,10 @@
             // stateUserControlCA
             // 
             this.stateUserControlCA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlCA.Location = new System.Drawing.Point(3, 583);
+            this.stateUserControlCA.Location = new System.Drawing.Point(1, 381);
+            this.stateUserControlCA.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlCA.Name = "stateUserControlCA";
-            this.stateUserControlCA.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlCA.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlCA.StateABB = "(CA)";
             this.stateUserControlCA.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlCA.StateIcon")));
             this.stateUserControlCA.StateName = "California";
@@ -301,9 +314,10 @@
             // stateUserControlCO
             // 
             this.stateUserControlCO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlCO.Location = new System.Drawing.Point(3, 728);
+            this.stateUserControlCO.Location = new System.Drawing.Point(1, 476);
+            this.stateUserControlCO.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlCO.Name = "stateUserControlCO";
-            this.stateUserControlCO.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlCO.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlCO.StateABB = "(CO)";
             this.stateUserControlCO.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlCO.StateIcon")));
             this.stateUserControlCO.StateName = "Colorado";
@@ -312,9 +326,10 @@
             // stateUserControlCT
             // 
             this.stateUserControlCT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlCT.Location = new System.Drawing.Point(3, 873);
+            this.stateUserControlCT.Location = new System.Drawing.Point(1, 571);
+            this.stateUserControlCT.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlCT.Name = "stateUserControlCT";
-            this.stateUserControlCT.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlCT.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlCT.StateABB = "(CT)";
             this.stateUserControlCT.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlCT.StateIcon")));
             this.stateUserControlCT.StateName = "Connecticut";
@@ -323,9 +338,10 @@
             // stateUserControlDE
             // 
             this.stateUserControlDE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlDE.Location = new System.Drawing.Point(3, 1018);
+            this.stateUserControlDE.Location = new System.Drawing.Point(1, 666);
+            this.stateUserControlDE.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlDE.Name = "stateUserControlDE";
-            this.stateUserControlDE.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlDE.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlDE.StateABB = "(DE)";
             this.stateUserControlDE.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlDE.StateIcon")));
             this.stateUserControlDE.StateName = "Delaware";
@@ -334,9 +350,10 @@
             // stateUserControlFL
             // 
             this.stateUserControlFL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlFL.Location = new System.Drawing.Point(3, 1163);
+            this.stateUserControlFL.Location = new System.Drawing.Point(1, 761);
+            this.stateUserControlFL.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlFL.Name = "stateUserControlFL";
-            this.stateUserControlFL.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlFL.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlFL.StateABB = "(FL)";
             this.stateUserControlFL.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlFL.StateIcon")));
             this.stateUserControlFL.StateName = "Florida";
@@ -345,9 +362,10 @@
             // stateUserControlGA
             // 
             this.stateUserControlGA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlGA.Location = new System.Drawing.Point(3, 1308);
+            this.stateUserControlGA.Location = new System.Drawing.Point(1, 856);
+            this.stateUserControlGA.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlGA.Name = "stateUserControlGA";
-            this.stateUserControlGA.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlGA.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlGA.StateABB = "(GA)";
             this.stateUserControlGA.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlGA.StateIcon")));
             this.stateUserControlGA.StateName = "Georgia";
@@ -356,9 +374,10 @@
             // stateUserControlHI
             // 
             this.stateUserControlHI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlHI.Location = new System.Drawing.Point(3, 1453);
+            this.stateUserControlHI.Location = new System.Drawing.Point(1, 951);
+            this.stateUserControlHI.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlHI.Name = "stateUserControlHI";
-            this.stateUserControlHI.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlHI.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlHI.StateABB = "(HI)";
             this.stateUserControlHI.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlHI.StateIcon")));
             this.stateUserControlHI.StateName = "Hawaii";
@@ -367,9 +386,10 @@
             // stateUserControlID
             // 
             this.stateUserControlID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlID.Location = new System.Drawing.Point(3, 1598);
+            this.stateUserControlID.Location = new System.Drawing.Point(1, 1046);
+            this.stateUserControlID.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlID.Name = "stateUserControlID";
-            this.stateUserControlID.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlID.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlID.StateABB = "(ID)";
             this.stateUserControlID.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlID.StateIcon")));
             this.stateUserControlID.StateName = "Idaho";
@@ -378,9 +398,10 @@
             // stateUserControlIL
             // 
             this.stateUserControlIL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlIL.Location = new System.Drawing.Point(3, 1743);
+            this.stateUserControlIL.Location = new System.Drawing.Point(1, 1141);
+            this.stateUserControlIL.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlIL.Name = "stateUserControlIL";
-            this.stateUserControlIL.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlIL.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlIL.StateABB = "(IL)";
             this.stateUserControlIL.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlIL.StateIcon")));
             this.stateUserControlIL.StateName = "Illinois";
@@ -389,9 +410,10 @@
             // stateUserControlIN
             // 
             this.stateUserControlIN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlIN.Location = new System.Drawing.Point(3, 1888);
+            this.stateUserControlIN.Location = new System.Drawing.Point(1, 1236);
+            this.stateUserControlIN.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlIN.Name = "stateUserControlIN";
-            this.stateUserControlIN.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlIN.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlIN.StateABB = "(IN)";
             this.stateUserControlIN.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlIN.StateIcon")));
             this.stateUserControlIN.StateName = "Indiana";
@@ -400,9 +422,10 @@
             // stateUserControlIA
             // 
             this.stateUserControlIA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlIA.Location = new System.Drawing.Point(3, 2033);
+            this.stateUserControlIA.Location = new System.Drawing.Point(1, 1331);
+            this.stateUserControlIA.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlIA.Name = "stateUserControlIA";
-            this.stateUserControlIA.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlIA.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlIA.StateABB = "(IA)";
             this.stateUserControlIA.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlIA.StateIcon")));
             this.stateUserControlIA.StateName = "Iowa";
@@ -411,9 +434,10 @@
             // stateUserControlKS
             // 
             this.stateUserControlKS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlKS.Location = new System.Drawing.Point(3, 2178);
+            this.stateUserControlKS.Location = new System.Drawing.Point(1, 1426);
+            this.stateUserControlKS.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlKS.Name = "stateUserControlKS";
-            this.stateUserControlKS.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlKS.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlKS.StateABB = "(KS)";
             this.stateUserControlKS.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlKS.StateIcon")));
             this.stateUserControlKS.StateName = "Kansas";
@@ -422,9 +446,10 @@
             // stateUserControlKY
             // 
             this.stateUserControlKY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlKY.Location = new System.Drawing.Point(3, 2323);
+            this.stateUserControlKY.Location = new System.Drawing.Point(1, 1521);
+            this.stateUserControlKY.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlKY.Name = "stateUserControlKY";
-            this.stateUserControlKY.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlKY.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlKY.StateABB = "(KY)";
             this.stateUserControlKY.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlKY.StateIcon")));
             this.stateUserControlKY.StateName = "Kentucky";
@@ -433,9 +458,10 @@
             // stateUserControlLA
             // 
             this.stateUserControlLA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlLA.Location = new System.Drawing.Point(3, 2468);
+            this.stateUserControlLA.Location = new System.Drawing.Point(1, 1616);
+            this.stateUserControlLA.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlLA.Name = "stateUserControlLA";
-            this.stateUserControlLA.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlLA.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlLA.StateABB = "(LA)";
             this.stateUserControlLA.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlLA.StateIcon")));
             this.stateUserControlLA.StateName = "Louisiana";
@@ -444,9 +470,10 @@
             // stateUserControlME
             // 
             this.stateUserControlME.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlME.Location = new System.Drawing.Point(3, 2613);
+            this.stateUserControlME.Location = new System.Drawing.Point(1, 1711);
+            this.stateUserControlME.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlME.Name = "stateUserControlME";
-            this.stateUserControlME.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlME.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlME.StateABB = "(ME)";
             this.stateUserControlME.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlME.StateIcon")));
             this.stateUserControlME.StateName = "Maine";
@@ -455,9 +482,10 @@
             // stateUserControlMD
             // 
             this.stateUserControlMD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlMD.Location = new System.Drawing.Point(3, 2758);
+            this.stateUserControlMD.Location = new System.Drawing.Point(1, 1806);
+            this.stateUserControlMD.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlMD.Name = "stateUserControlMD";
-            this.stateUserControlMD.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlMD.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlMD.StateABB = "(MD)";
             this.stateUserControlMD.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlMD.StateIcon")));
             this.stateUserControlMD.StateName = "Maryland";
@@ -466,9 +494,10 @@
             // stateUserControlMA
             // 
             this.stateUserControlMA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlMA.Location = new System.Drawing.Point(3, 2903);
+            this.stateUserControlMA.Location = new System.Drawing.Point(1, 1901);
+            this.stateUserControlMA.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlMA.Name = "stateUserControlMA";
-            this.stateUserControlMA.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlMA.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlMA.StateABB = "(MA)";
             this.stateUserControlMA.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlMA.StateIcon")));
             this.stateUserControlMA.StateName = "Massachusetts";
@@ -477,9 +506,10 @@
             // stateUserControlMI
             // 
             this.stateUserControlMI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlMI.Location = new System.Drawing.Point(3, 3048);
+            this.stateUserControlMI.Location = new System.Drawing.Point(1, 1996);
+            this.stateUserControlMI.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlMI.Name = "stateUserControlMI";
-            this.stateUserControlMI.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlMI.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlMI.StateABB = "(MI)";
             this.stateUserControlMI.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlMI.StateIcon")));
             this.stateUserControlMI.StateName = "Michigan";
@@ -488,9 +518,10 @@
             // stateUserControlMN
             // 
             this.stateUserControlMN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlMN.Location = new System.Drawing.Point(3, 3193);
+            this.stateUserControlMN.Location = new System.Drawing.Point(1, 2091);
+            this.stateUserControlMN.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlMN.Name = "stateUserControlMN";
-            this.stateUserControlMN.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlMN.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlMN.StateABB = "(MN)";
             this.stateUserControlMN.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlMN.StateIcon")));
             this.stateUserControlMN.StateName = "Minnesota";
@@ -499,9 +530,10 @@
             // stateUserControlMS
             // 
             this.stateUserControlMS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlMS.Location = new System.Drawing.Point(3, 3338);
+            this.stateUserControlMS.Location = new System.Drawing.Point(1, 2186);
+            this.stateUserControlMS.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlMS.Name = "stateUserControlMS";
-            this.stateUserControlMS.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlMS.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlMS.StateABB = "(MS)";
             this.stateUserControlMS.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlMS.StateIcon")));
             this.stateUserControlMS.StateName = "Mississippi";
@@ -510,9 +542,10 @@
             // stateUserControlMO
             // 
             this.stateUserControlMO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlMO.Location = new System.Drawing.Point(3, 3483);
+            this.stateUserControlMO.Location = new System.Drawing.Point(1, 2281);
+            this.stateUserControlMO.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlMO.Name = "stateUserControlMO";
-            this.stateUserControlMO.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlMO.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlMO.StateABB = "(MO)";
             this.stateUserControlMO.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlMO.StateIcon")));
             this.stateUserControlMO.StateName = "Missouri";
@@ -521,9 +554,10 @@
             // stateUserControlMT
             // 
             this.stateUserControlMT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlMT.Location = new System.Drawing.Point(3, 3628);
+            this.stateUserControlMT.Location = new System.Drawing.Point(1, 2376);
+            this.stateUserControlMT.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlMT.Name = "stateUserControlMT";
-            this.stateUserControlMT.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlMT.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlMT.StateABB = "(MT)";
             this.stateUserControlMT.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlMT.StateIcon")));
             this.stateUserControlMT.StateName = "Montana";
@@ -532,9 +566,10 @@
             // stateUserControlNE
             // 
             this.stateUserControlNE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlNE.Location = new System.Drawing.Point(3, 3773);
+            this.stateUserControlNE.Location = new System.Drawing.Point(1, 2471);
+            this.stateUserControlNE.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlNE.Name = "stateUserControlNE";
-            this.stateUserControlNE.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlNE.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlNE.StateABB = "(NE)";
             this.stateUserControlNE.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlNE.StateIcon")));
             this.stateUserControlNE.StateName = "Nebraska";
@@ -543,9 +578,10 @@
             // stateUserControlNV
             // 
             this.stateUserControlNV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlNV.Location = new System.Drawing.Point(3, 3918);
+            this.stateUserControlNV.Location = new System.Drawing.Point(1, 2566);
+            this.stateUserControlNV.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlNV.Name = "stateUserControlNV";
-            this.stateUserControlNV.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlNV.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlNV.StateABB = "(NV)";
             this.stateUserControlNV.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlNV.StateIcon")));
             this.stateUserControlNV.StateName = "Nevada";
@@ -554,9 +590,10 @@
             // stateUserControlNH
             // 
             this.stateUserControlNH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlNH.Location = new System.Drawing.Point(3, 4063);
+            this.stateUserControlNH.Location = new System.Drawing.Point(1, 2661);
+            this.stateUserControlNH.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlNH.Name = "stateUserControlNH";
-            this.stateUserControlNH.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlNH.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlNH.StateABB = "(NH)";
             this.stateUserControlNH.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlNH.StateIcon")));
             this.stateUserControlNH.StateName = "New Hampshire";
@@ -565,9 +602,10 @@
             // stateUserControlNJ
             // 
             this.stateUserControlNJ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlNJ.Location = new System.Drawing.Point(3, 4208);
+            this.stateUserControlNJ.Location = new System.Drawing.Point(1, 2756);
+            this.stateUserControlNJ.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlNJ.Name = "stateUserControlNJ";
-            this.stateUserControlNJ.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlNJ.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlNJ.StateABB = "(NJ)";
             this.stateUserControlNJ.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlNJ.StateIcon")));
             this.stateUserControlNJ.StateName = "New Jersey";
@@ -576,9 +614,10 @@
             // stateUserControlNM
             // 
             this.stateUserControlNM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlNM.Location = new System.Drawing.Point(3, 4353);
+            this.stateUserControlNM.Location = new System.Drawing.Point(1, 2851);
+            this.stateUserControlNM.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlNM.Name = "stateUserControlNM";
-            this.stateUserControlNM.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlNM.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlNM.StateABB = "(NM)";
             this.stateUserControlNM.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlNM.StateIcon")));
             this.stateUserControlNM.StateName = "New Mexico";
@@ -587,9 +626,10 @@
             // stateUserControlNY
             // 
             this.stateUserControlNY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlNY.Location = new System.Drawing.Point(3, 4498);
+            this.stateUserControlNY.Location = new System.Drawing.Point(1, 2946);
+            this.stateUserControlNY.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlNY.Name = "stateUserControlNY";
-            this.stateUserControlNY.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlNY.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlNY.StateABB = "(NY)";
             this.stateUserControlNY.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlNY.StateIcon")));
             this.stateUserControlNY.StateName = "New York";
@@ -598,9 +638,10 @@
             // stateUserControlNC
             // 
             this.stateUserControlNC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlNC.Location = new System.Drawing.Point(3, 4643);
+            this.stateUserControlNC.Location = new System.Drawing.Point(1, 3041);
+            this.stateUserControlNC.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlNC.Name = "stateUserControlNC";
-            this.stateUserControlNC.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlNC.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlNC.StateABB = "(NC)";
             this.stateUserControlNC.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlNC.StateIcon")));
             this.stateUserControlNC.StateName = "North Carolina";
@@ -609,9 +650,10 @@
             // stateUserControlND
             // 
             this.stateUserControlND.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlND.Location = new System.Drawing.Point(3, 4788);
+            this.stateUserControlND.Location = new System.Drawing.Point(1, 3136);
+            this.stateUserControlND.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlND.Name = "stateUserControlND";
-            this.stateUserControlND.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlND.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlND.StateABB = "(ND)";
             this.stateUserControlND.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlND.StateIcon")));
             this.stateUserControlND.StateName = "North Dakota";
@@ -620,9 +662,10 @@
             // stateUserControlOH
             // 
             this.stateUserControlOH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlOH.Location = new System.Drawing.Point(3, 4933);
+            this.stateUserControlOH.Location = new System.Drawing.Point(1, 3231);
+            this.stateUserControlOH.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlOH.Name = "stateUserControlOH";
-            this.stateUserControlOH.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlOH.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlOH.StateABB = "(OH)";
             this.stateUserControlOH.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlOH.StateIcon")));
             this.stateUserControlOH.StateName = "Ohio";
@@ -631,9 +674,10 @@
             // stateUserControlOK
             // 
             this.stateUserControlOK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlOK.Location = new System.Drawing.Point(3, 5078);
+            this.stateUserControlOK.Location = new System.Drawing.Point(1, 3326);
+            this.stateUserControlOK.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlOK.Name = "stateUserControlOK";
-            this.stateUserControlOK.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlOK.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlOK.StateABB = "(OK)";
             this.stateUserControlOK.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlOK.StateIcon")));
             this.stateUserControlOK.StateName = "Oklahoma";
@@ -642,9 +686,10 @@
             // stateUserControlOR
             // 
             this.stateUserControlOR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlOR.Location = new System.Drawing.Point(3, 5223);
+            this.stateUserControlOR.Location = new System.Drawing.Point(1, 3421);
+            this.stateUserControlOR.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlOR.Name = "stateUserControlOR";
-            this.stateUserControlOR.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlOR.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlOR.StateABB = "(OR)";
             this.stateUserControlOR.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlOR.StateIcon")));
             this.stateUserControlOR.StateName = "Oregon";
@@ -653,9 +698,10 @@
             // stateUserControlPA
             // 
             this.stateUserControlPA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlPA.Location = new System.Drawing.Point(3, 5368);
+            this.stateUserControlPA.Location = new System.Drawing.Point(1, 3516);
+            this.stateUserControlPA.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlPA.Name = "stateUserControlPA";
-            this.stateUserControlPA.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlPA.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlPA.StateABB = "(PA)";
             this.stateUserControlPA.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlPA.StateIcon")));
             this.stateUserControlPA.StateName = "Pennsylvania";
@@ -664,9 +710,10 @@
             // stateUserControlRI
             // 
             this.stateUserControlRI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlRI.Location = new System.Drawing.Point(3, 5513);
+            this.stateUserControlRI.Location = new System.Drawing.Point(1, 3611);
+            this.stateUserControlRI.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlRI.Name = "stateUserControlRI";
-            this.stateUserControlRI.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlRI.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlRI.StateABB = "(RI)";
             this.stateUserControlRI.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlRI.StateIcon")));
             this.stateUserControlRI.StateName = "Rhode Island";
@@ -675,9 +722,10 @@
             // stateUserControlSC
             // 
             this.stateUserControlSC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlSC.Location = new System.Drawing.Point(3, 5658);
+            this.stateUserControlSC.Location = new System.Drawing.Point(1, 3706);
+            this.stateUserControlSC.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlSC.Name = "stateUserControlSC";
-            this.stateUserControlSC.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlSC.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlSC.StateABB = "(SC)";
             this.stateUserControlSC.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlSC.StateIcon")));
             this.stateUserControlSC.StateName = "South Carolina";
@@ -686,9 +734,10 @@
             // stateUserControlSD
             // 
             this.stateUserControlSD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlSD.Location = new System.Drawing.Point(3, 5803);
+            this.stateUserControlSD.Location = new System.Drawing.Point(1, 3801);
+            this.stateUserControlSD.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlSD.Name = "stateUserControlSD";
-            this.stateUserControlSD.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlSD.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlSD.StateABB = "(SD)";
             this.stateUserControlSD.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlSD.StateIcon")));
             this.stateUserControlSD.StateName = "South Dakota";
@@ -697,9 +746,10 @@
             // stateUserControlTN
             // 
             this.stateUserControlTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlTN.Location = new System.Drawing.Point(3, 5948);
+            this.stateUserControlTN.Location = new System.Drawing.Point(1, 3896);
+            this.stateUserControlTN.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlTN.Name = "stateUserControlTN";
-            this.stateUserControlTN.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlTN.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlTN.StateABB = "(TN)";
             this.stateUserControlTN.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlTN.StateIcon")));
             this.stateUserControlTN.StateName = "Tennessee";
@@ -708,9 +758,10 @@
             // stateUserControlTX
             // 
             this.stateUserControlTX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlTX.Location = new System.Drawing.Point(3, 6093);
+            this.stateUserControlTX.Location = new System.Drawing.Point(1, 3991);
+            this.stateUserControlTX.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlTX.Name = "stateUserControlTX";
-            this.stateUserControlTX.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlTX.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlTX.StateABB = "(TX)";
             this.stateUserControlTX.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlTX.StateIcon")));
             this.stateUserControlTX.StateName = "Texas";
@@ -719,9 +770,10 @@
             // stateUserControlUT
             // 
             this.stateUserControlUT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlUT.Location = new System.Drawing.Point(3, 6238);
+            this.stateUserControlUT.Location = new System.Drawing.Point(1, 4086);
+            this.stateUserControlUT.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlUT.Name = "stateUserControlUT";
-            this.stateUserControlUT.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlUT.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlUT.StateABB = "(UT)";
             this.stateUserControlUT.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlUT.StateIcon")));
             this.stateUserControlUT.StateName = "Utah";
@@ -730,9 +782,10 @@
             // stateUserControlVT
             // 
             this.stateUserControlVT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlVT.Location = new System.Drawing.Point(3, 6383);
+            this.stateUserControlVT.Location = new System.Drawing.Point(1, 4181);
+            this.stateUserControlVT.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlVT.Name = "stateUserControlVT";
-            this.stateUserControlVT.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlVT.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlVT.StateABB = "(VT)";
             this.stateUserControlVT.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlVT.StateIcon")));
             this.stateUserControlVT.StateName = "Vermont";
@@ -741,9 +794,10 @@
             // stateUserControlVA
             // 
             this.stateUserControlVA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlVA.Location = new System.Drawing.Point(3, 6528);
+            this.stateUserControlVA.Location = new System.Drawing.Point(1, 4276);
+            this.stateUserControlVA.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlVA.Name = "stateUserControlVA";
-            this.stateUserControlVA.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlVA.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlVA.StateABB = "(VA)";
             this.stateUserControlVA.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlVA.StateIcon")));
             this.stateUserControlVA.StateName = "Virginia";
@@ -752,9 +806,10 @@
             // stateUserControlWA
             // 
             this.stateUserControlWA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlWA.Location = new System.Drawing.Point(3, 6673);
+            this.stateUserControlWA.Location = new System.Drawing.Point(1, 4371);
+            this.stateUserControlWA.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlWA.Name = "stateUserControlWA";
-            this.stateUserControlWA.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlWA.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlWA.StateABB = "(WA)";
             this.stateUserControlWA.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlWA.StateIcon")));
             this.stateUserControlWA.StateName = "Washington";
@@ -763,9 +818,10 @@
             // stateUserControlWV
             // 
             this.stateUserControlWV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlWV.Location = new System.Drawing.Point(3, 6818);
+            this.stateUserControlWV.Location = new System.Drawing.Point(1, 4466);
+            this.stateUserControlWV.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlWV.Name = "stateUserControlWV";
-            this.stateUserControlWV.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlWV.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlWV.StateABB = "(WV)";
             this.stateUserControlWV.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlWV.StateIcon")));
             this.stateUserControlWV.StateName = "West Virginia";
@@ -774,9 +830,10 @@
             // stateUserControlWI
             // 
             this.stateUserControlWI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlWI.Location = new System.Drawing.Point(3, 6963);
+            this.stateUserControlWI.Location = new System.Drawing.Point(1, 4561);
+            this.stateUserControlWI.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlWI.Name = "stateUserControlWI";
-            this.stateUserControlWI.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlWI.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlWI.StateABB = "(WI)";
             this.stateUserControlWI.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlWI.StateIcon")));
             this.stateUserControlWI.StateName = "Wisconsin";
@@ -785,9 +842,10 @@
             // stateUserControlWY
             // 
             this.stateUserControlWY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(192)))), ((int)(((byte)(205)))));
-            this.stateUserControlWY.Location = new System.Drawing.Point(3, 7108);
+            this.stateUserControlWY.Location = new System.Drawing.Point(1, 4656);
+            this.stateUserControlWY.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.stateUserControlWY.Name = "stateUserControlWY";
-            this.stateUserControlWY.Size = new System.Drawing.Size(634, 139);
+            this.stateUserControlWY.Size = new System.Drawing.Size(423, 93);
             this.stateUserControlWY.StateABB = "(WY)";
             this.stateUserControlWY.StateIcon = ((System.Drawing.Image)(resources.GetObject("stateUserControlWY.StateIcon")));
             this.stateUserControlWY.StateName = "Wyoming";
@@ -796,9 +854,10 @@
             // picIcon2
             // 
             this.picIcon2.Image = ((System.Drawing.Image)(resources.GetObject("picIcon2.Image")));
-            this.picIcon2.Location = new System.Drawing.Point(21, 262);
+            this.picIcon2.Location = new System.Drawing.Point(14, 175);
+            this.picIcon2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picIcon2.Name = "picIcon2";
-            this.picIcon2.Size = new System.Drawing.Size(239, 216);
+            this.picIcon2.Size = new System.Drawing.Size(159, 144);
             this.picIcon2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picIcon2.TabIndex = 8;
             this.picIcon2.TabStop = false;
@@ -808,9 +867,10 @@
             this.btnStatesAE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(45)))), ((int)(((byte)(39)))));
             this.btnStatesAE.Font = new System.Drawing.Font("Corbel", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStatesAE.ForeColor = System.Drawing.Color.White;
-            this.btnStatesAE.Location = new System.Drawing.Point(979, 321);
+            this.btnStatesAE.Location = new System.Drawing.Point(653, 214);
+            this.btnStatesAE.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStatesAE.Name = "btnStatesAE";
-            this.btnStatesAE.Size = new System.Drawing.Size(185, 43);
+            this.btnStatesAE.Size = new System.Drawing.Size(123, 29);
             this.btnStatesAE.TabIndex = 9;
             this.btnStatesAE.Text = "A-E";
             this.btnStatesAE.UseVisualStyleBackColor = false;
@@ -821,9 +881,10 @@
             this.btnStatesFJ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(45)))), ((int)(((byte)(39)))));
             this.btnStatesFJ.Font = new System.Drawing.Font("Corbel", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStatesFJ.ForeColor = System.Drawing.Color.White;
-            this.btnStatesFJ.Location = new System.Drawing.Point(979, 370);
+            this.btnStatesFJ.Location = new System.Drawing.Point(653, 247);
+            this.btnStatesFJ.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStatesFJ.Name = "btnStatesFJ";
-            this.btnStatesFJ.Size = new System.Drawing.Size(185, 43);
+            this.btnStatesFJ.Size = new System.Drawing.Size(123, 29);
             this.btnStatesFJ.TabIndex = 10;
             this.btnStatesFJ.Text = "F-J";
             this.btnStatesFJ.UseVisualStyleBackColor = false;
@@ -834,9 +895,10 @@
             this.btnStatesKO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(45)))), ((int)(((byte)(39)))));
             this.btnStatesKO.Font = new System.Drawing.Font("Corbel", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStatesKO.ForeColor = System.Drawing.Color.White;
-            this.btnStatesKO.Location = new System.Drawing.Point(979, 419);
+            this.btnStatesKO.Location = new System.Drawing.Point(653, 279);
+            this.btnStatesKO.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStatesKO.Name = "btnStatesKO";
-            this.btnStatesKO.Size = new System.Drawing.Size(185, 43);
+            this.btnStatesKO.Size = new System.Drawing.Size(123, 29);
             this.btnStatesKO.TabIndex = 11;
             this.btnStatesKO.Text = "K-O";
             this.btnStatesKO.UseVisualStyleBackColor = false;
@@ -847,9 +909,10 @@
             this.btnStatesPT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(45)))), ((int)(((byte)(39)))));
             this.btnStatesPT.Font = new System.Drawing.Font("Corbel", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStatesPT.ForeColor = System.Drawing.Color.White;
-            this.btnStatesPT.Location = new System.Drawing.Point(979, 468);
+            this.btnStatesPT.Location = new System.Drawing.Point(653, 312);
+            this.btnStatesPT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStatesPT.Name = "btnStatesPT";
-            this.btnStatesPT.Size = new System.Drawing.Size(185, 43);
+            this.btnStatesPT.Size = new System.Drawing.Size(123, 29);
             this.btnStatesPT.TabIndex = 12;
             this.btnStatesPT.Text = "P-T";
             this.btnStatesPT.UseVisualStyleBackColor = false;
@@ -860,9 +923,10 @@
             this.btnStatesUZ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(45)))), ((int)(((byte)(39)))));
             this.btnStatesUZ.Font = new System.Drawing.Font("Corbel", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStatesUZ.ForeColor = System.Drawing.Color.White;
-            this.btnStatesUZ.Location = new System.Drawing.Point(979, 517);
+            this.btnStatesUZ.Location = new System.Drawing.Point(653, 345);
+            this.btnStatesUZ.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStatesUZ.Name = "btnStatesUZ";
-            this.btnStatesUZ.Size = new System.Drawing.Size(185, 43);
+            this.btnStatesUZ.Size = new System.Drawing.Size(123, 29);
             this.btnStatesUZ.TabIndex = 13;
             this.btnStatesUZ.Text = "U-Z";
             this.btnStatesUZ.UseVisualStyleBackColor = false;
@@ -873,9 +937,10 @@
             this.btnAllStates.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(45)))), ((int)(((byte)(39)))));
             this.btnAllStates.Font = new System.Drawing.Font("Corbel", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAllStates.ForeColor = System.Drawing.Color.White;
-            this.btnAllStates.Location = new System.Drawing.Point(979, 271);
+            this.btnAllStates.Location = new System.Drawing.Point(653, 181);
+            this.btnAllStates.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAllStates.Name = "btnAllStates";
-            this.btnAllStates.Size = new System.Drawing.Size(185, 44);
+            this.btnAllStates.Size = new System.Drawing.Size(123, 29);
             this.btnAllStates.TabIndex = 14;
             this.btnAllStates.Text = "ALL";
             this.btnAllStates.UseVisualStyleBackColor = false;
@@ -884,9 +949,10 @@
             // txtSearchbyName
             // 
             this.txtSearchbyName.Font = new System.Drawing.Font("Corbel", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchbyName.Location = new System.Drawing.Point(965, 149);
+            this.txtSearchbyName.Location = new System.Drawing.Point(643, 99);
+            this.txtSearchbyName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSearchbyName.Name = "txtSearchbyName";
-            this.txtSearchbyName.Size = new System.Drawing.Size(220, 32);
+            this.txtSearchbyName.Size = new System.Drawing.Size(148, 24);
             this.txtSearchbyName.TabIndex = 15;
             this.txtSearchbyName.Text = "Name of State";
             // 
@@ -895,9 +961,10 @@
             this.btnSearchTxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(45)))), ((int)(((byte)(39)))));
             this.btnSearchTxt.Font = new System.Drawing.Font("Corbel", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchTxt.ForeColor = System.Drawing.Color.White;
-            this.btnSearchTxt.Location = new System.Drawing.Point(997, 187);
+            this.btnSearchTxt.Location = new System.Drawing.Point(665, 125);
+            this.btnSearchTxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSearchTxt.Name = "btnSearchTxt";
-            this.btnSearchTxt.Size = new System.Drawing.Size(147, 38);
+            this.btnSearchTxt.Size = new System.Drawing.Size(98, 25);
             this.btnSearchTxt.TabIndex = 16;
             this.btnSearchTxt.Text = "Search";
             this.btnSearchTxt.UseVisualStyleBackColor = false;
@@ -905,10 +972,10 @@
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(218)))), ((int)(((byte)(208)))));
-            this.ClientSize = new System.Drawing.Size(1197, 681);
+            this.ClientSize = new System.Drawing.Size(798, 454);
             this.Controls.Add(this.btnSearchTxt);
             this.Controls.Add(this.txtSearchbyName);
             this.Controls.Add(this.btnAllStates);
@@ -924,6 +991,7 @@
             this.Controls.Add(this.lblWelcomeTitle);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormMain";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -947,7 +1015,6 @@
         private System.Windows.Forms.Label lblWelcomeTitle;
         private System.Windows.Forms.Label lblInstructions;
         private System.Windows.Forms.Button btnAdvFeatures;
-        private System.Windows.Forms.PictureBox picIcon;
         private System.Windows.Forms.PictureBox picIcon2;
         private StateSelectionUserControl stateUserControlAL;
         private StateSelectionUserControl stateUserControlAK;
@@ -1008,6 +1075,7 @@
         private System.Windows.Forms.TextBox txtSearchbyName;
         private System.Windows.Forms.Button btnSearchTxt;
         internal System.Windows.Forms.FlowLayoutPanel flowLayoutPanelAllStates;
+        private System.Windows.Forms.PictureBox picIcon;
     }
 }
 

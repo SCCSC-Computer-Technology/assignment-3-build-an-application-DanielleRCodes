@@ -229,6 +229,6 @@ namespace DanielleR_CPT_206_Lab_3
             {
                 MessageBox.Show("Please Enter a Valid State!");
             }
-        }      
+        }        
     }
 }
