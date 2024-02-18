@@ -1,0 +1,10 @@
+The program launches, but with build errors- three files in the file structure reference a folder that was probably deleted at some point.
+I really commend you on the look of the form. It is easily the best looking form I have seen yet.
+I like that clicking a different state in combobox moves the buttons with it, which is intuitive.
+I wanted to see how you had everything laid out in design view, but unfortunately I could not get it to open with that previously mentioned error.
+The State info button works to bring up a details page, but the fields don't populate, I see where you made a comment about the fillbystate name not working.
+The update feature seems to not be working yet and it did not prompt to user for invalid data.
+I believe the problem stems from the connection string referencing a settings file in that Properties folder that is no longer in the project folder.
+I like your advanced features page. Your implementation is much cleaner than mine as I did radio buttons instead, which is just ugly and hard to navigate by comparison.
+I think your idea of keeping the update info feature tied to the state info screen is much better than cramming it onto the data grid screen.
+Overall, I really like the way you tackled this project. The graphics you used were vibrant, but not overbearing. You gave me some good ideas for the next one.
